@@ -67,7 +67,7 @@ if (groceryList.length == 7) {
 //self-congrats function (NOT PART OF EXERCISE)//
 
 
-//+++Sarah's Grocery Store Shopping Cart - Exercise+++//
+//+++Sarah's Grocery Store Shopping Cart - EXERCISE 2+++//
 
 let shoppingCart = [];
 
@@ -86,3 +86,29 @@ console.log(shoppingCart);
 console.log(shoppingCart.length)
 
 
+// for loop practice//
+
+let choppedCheese = ["salt", "pepper", "ketchup"]
+
+for (let index = 0; index < choppedCheese.length; index++){
+    console.log(`Jose ordered ${choppedCheese[index]} on his chopped cheese`);
+};
+
+//for loop practice//
+
+
+//+++Break down the For Loop - EXERCISE 3+++//
+
+let symbolThrow = ["rock", "paper", "scissor", "gun", "snakes"];
+
+for(let type = 0; type < symbolThrow.length; type++){
+    console.log(`Initialized value is: ${type}`);
+
+    if (type < symbolThrow.length){
+        console.log(`Condition is met? ${type == symbolThrow.length - 1}`);
+    }
+
+    console.log(`Current throw: ${symbolThrow[type]}`);
+
+    console.log(`After iterator, initialized value is: ${type + 1}`);
+};
