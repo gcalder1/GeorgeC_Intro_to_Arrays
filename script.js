@@ -66,4 +66,23 @@ if (groceryList.length == 7) {
 }
 //self-congrats function (NOT PART OF EXERCISE)//
 
-//
+
+//+++Sarah's Grocery Store Shopping Cart - Exercise+++//
+
+let shoppingCart = [];
+
+console.log(shoppingCart);
+console.log(shoppingCart.length);
+
+shoppingCart.push("bacon", "lettuce", "tomato");
+
+console.log(shoppingCart);
+console.log(shoppingCart.length);
+
+const whichDidItTake = shoppingCart.pop();
+
+console.log(whichDidItTake);
+console.log(shoppingCart);
+console.log(shoppingCart.length)
+
+
